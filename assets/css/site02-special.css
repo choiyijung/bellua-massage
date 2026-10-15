@@ -1,0 +1,277 @@
+/* =========================================================
+   SITE-02 SPECIAL - DISTINCT LAYOUT
+   ========================================================= */
+
+body.site02-special-new{
+  background:#102823 !important;
+  color:#e8efec !important;
+}
+
+/* 상단 */
+.site02-special-new .topbar,
+.site02-special-new .ry-nav{
+  background:#0b1f1b !important;
+  border-color:#29463f !important;
+}
+
+.site02-special-new .ry-brand,
+.site02-special-new .ry-menu a{
+  color:#fff !important;
+  -webkit-text-fill-color:#fff !important;
+}
+
+/* 히어로를 완전히 다른 구조로 */
+.site02-special-new .hero{
+  position:relative !important;
+  width:min(1280px,calc(100% - 32px)) !important;
+  min-height:620px !important;
+  margin:20px auto 0 !important;
+  overflow:hidden !important;
+
+  border:0 !important;
+  border-radius:0 0 72px 0 !important;
+  background:#102823 !important;
+  box-shadow:none !important;
+}
+
+.site02-special-new .hero-main{
+  min-height:620px !important;
+  display:block !important;
+  position:relative !important;
+}
+
+.site02-special-new .hero-visual{
+  position:absolute !important;
+  inset:0 !important;
+  width:100% !important;
+  height:100% !important;
+  z-index:1 !important;
+}
+
+.site02-special-new .metro-hero-photo{
+  width:100% !important;
+  height:100% !important;
+  object-fit:cover !important;
+  border-radius:0 !important;
+}
+
+.site02-special-new .hero-visual::after{
+  content:"" !important;
+  position:absolute !important;
+  inset:0 !important;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(6,24,20,.95) 0%,
+      rgba(6,24,20,.83) 38%,
+      rgba(6,24,20,.25) 74%,
+      rgba(6,24,20,.05) 100%
+    ) !important;
+}
+
+.site02-special-new .hero-copy{
+  position:relative !important;
+  z-index:3 !important;
+
+  width:min(620px,70%) !important;
+  padding:105px 70px !important;
+
+  background:transparent !important;
+}
+
+.site02-special-new .hero-copy h1{
+  font-size:clamp(52px,6vw,84px) !important;
+  line-height:1.04 !important;
+  letter-spacing:-.06em !important;
+
+  color:#fff !important;
+  -webkit-text-fill-color:#fff !important;
+}
+
+.site02-special-new .hero-copy p,
+.site02-special-new .hero-note{
+  color:#dbe8e3 !important;
+  -webkit-text-fill-color:#dbe8e3 !important;
+}
+
+.site02-special-new .eyebrow{
+  color:#efb977 !important;
+  -webkit-text-fill-color:#efb977 !important;
+}
+
+/* 업체 5개를 카드가 아닌 가로 리스트형 */
+.site02-special-new .company-grid{
+  display:flex !important;
+  flex-direction:column !important;
+  gap:1px !important;
+
+  max-width:1160px !important;
+  margin:0 auto !important;
+
+  background:#345049 !important;
+}
+
+.site02-special-new .company-card{
+  display:grid !important;
+  grid-template-columns:72px minmax(180px,1.2fr) minmax(180px,1fr) 260px !important;
+  align-items:center !important;
+  gap:20px !important;
+
+  min-height:128px !important;
+  padding:24px 30px !important;
+
+  background:#16342d !important;
+  border:0 !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+}
+
+.site02-special-new .company-card:hover{
+  background:#1c4037 !important;
+}
+
+.site02-special-new .ry-rank{
+  width:50px !important;
+  height:50px !important;
+
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+
+  border-radius:0 !important;
+  background:#d6a064 !important;
+
+  color:#12251f !important;
+  -webkit-text-fill-color:#12251f !important;
+}
+
+.site02-special-new .company-name{
+  font-size:25px !important;
+
+  color:#fff !important;
+  -webkit-text-fill-color:#fff !important;
+}
+
+.site02-special-new .company-sub{
+  color:#afc0ba !important;
+  -webkit-text-fill-color:#afc0ba !important;
+}
+
+.site02-special-new .company-actions{
+  display:grid !important;
+  grid-template-columns:1fr 1fr !important;
+  gap:8px !important;
+}
+
+.site02-special-new .company-actions .call{
+  background:#d5a064 !important;
+  color:#14241f !important;
+  -webkit-text-fill-color:#14241f !important;
+
+  border-radius:0 !important;
+}
+
+.site02-special-new .company-actions .sms{
+  background:transparent !important;
+  color:#fff !important;
+  -webkit-text-fill-color:#fff !important;
+
+  border:1px solid #57746b !important;
+  border-radius:0 !important;
+}
+
+/* 지역 3개 */
+.site02-special-new .region-grid{
+  display:grid !important;
+  grid-template-columns:repeat(3,1fr) !important;
+  gap:14px !important;
+}
+
+.site02-special-new .region-card{
+  min-height:220px !important;
+  padding:30px !important;
+
+  background:#193a32 !important;
+  border:1px solid #385a51 !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+}
+
+.site02-special-new .region-card,
+.site02-special-new .region-card *{
+  color:#fff !important;
+  -webkit-text-fill-color:#fff !important;
+}
+
+/* 아래 콘텐츠도 SPECIAL 전용 */
+.site02-special-new .section,
+.site02-special-new .editorial,
+.site02-special-new .section-soft,
+.site02-special-new .metro-local-800,
+.site02-special-new .ry-longtext{
+  background:#132f29 !important;
+  border-color:#34554c !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+}
+
+.site02-special-new .section-head h2,
+.site02-special-new .section-label,
+.site02-special-new .kicker{
+  color:#e9b979 !important;
+  -webkit-text-fill-color:#e9b979 !important;
+}
+
+.site02-special-new .article,
+.site02-special-new .text-box,
+.site02-special-new .benefit,
+.site02-special-new .check,
+.site02-special-new .faq-item,
+.site02-special-new .ry-longtext-box{
+  background:#193a32 !important;
+  border:1px solid #3a5b52 !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+
+  color:#dce7e2 !important;
+}
+
+.site02-special-new .article *,
+.site02-special-new .text-box *,
+.site02-special-new .benefit *,
+.site02-special-new .check *,
+.site02-special-new .faq-item *,
+.site02-special-new .ry-longtext-box *{
+  color:inherit !important;
+  -webkit-text-fill-color:inherit !important;
+}
+
+.site02-special-new .breadcrumb{
+  color:#9fb1aa !important;
+}
+
+@media(max-width:800px){
+
+  .site02-special-new .hero,
+  .site02-special-new .hero-main{
+    min-height:520px !important;
+  }
+
+  .site02-special-new .hero-copy{
+    width:auto !important;
+    padding:72px 28px !important;
+  }
+
+  .site02-special-new .company-card{
+    grid-template-columns:55px 1fr !important;
+  }
+
+  .site02-special-new .company-sub,
+  .site02-special-new .company-actions{
+    grid-column:2 !important;
+  }
+
+  .site02-special-new .region-grid{
+    grid-template-columns:1fr !important;
+  }
+}

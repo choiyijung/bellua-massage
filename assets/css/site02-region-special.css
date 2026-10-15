@@ -1,0 +1,410 @@
+
+body.site02-region-special{
+  margin:0 !important;
+  background:#102720 !important;
+  color:#eaf0ed !important;
+}
+
+.site02-region-special .topbar,
+.site02-region-special .ry-nav{
+  background:#0c211b !important;
+  border-color:#304c44 !important;
+}
+
+.site02-region-special .ry-brand,
+.site02-region-special .ry-menu a{
+  color:#fff !important;
+  -webkit-text-fill-color:#fff !important;
+}
+
+/* SPECIAL HERO: ?? ?? */
+.site02-region-special .hero-main{
+  position:relative !important;
+  display:block !important;
+  min-height:540px !important;
+  overflow:hidden !important;
+  border-radius:0 0 70px 0 !important;
+  background:#102720 !important;
+}
+
+.site02-region-special .hero-visual{
+  position:absolute !important;
+  inset:0 !important;
+  width:100% !important;
+  height:100% !important;
+  z-index:1 !important;
+}
+
+.site02-region-special .metro-hero-photo{
+  width:100% !important;
+  height:100% !important;
+  object-fit:cover !important;
+  border-radius:0 !important;
+}
+
+.site02-region-special .hero-visual::after{
+  content:"" !important;
+  position:absolute !important;
+  inset:0 !important;
+  background:linear-gradient(
+    90deg,
+    rgba(7,27,22,.96) 0%,
+    rgba(7,27,22,.80) 42%,
+    rgba(7,27,22,.16) 78%
+  ) !important;
+}
+
+.site02-region-special .hero-copy{
+  position:relative !important;
+  z-index:3 !important;
+  width:min(620px,70%) !important;
+  padding:85px 58px !important;
+  background:transparent !important;
+}
+
+.site02-region-special .hero-copy h1{
+  font-size:clamp(44px,5.5vw,70px) !important;
+  line-height:1.06 !important;
+  color:#fff !important;
+  -webkit-text-fill-color:#fff !important;
+}
+
+.site02-region-special .hero-copy p,
+.site02-region-special .hero-copy .site-copy-v4{
+  color:#d8e5e0 !important;
+  -webkit-text-fill-color:#d8e5e0 !important;
+}
+
+/* SPECIAL ?? = ?? ?? ??? */
+.site02-region-special .company-grid{
+  display:flex !important;
+  flex-direction:column !important;
+  gap:1px !important;
+  background:#39544b !important;
+}
+
+.site02-region-special .company-card{
+  min-height:125px !important;
+  padding:24px 28px !important;
+
+  display:grid !important;
+  grid-template-columns:70px 1.2fr 1fr 260px !important;
+  align-items:center !important;
+  gap:20px !important;
+
+  border:0 !important;
+  border-radius:0 !important;
+  background:#17372f !important;
+  box-shadow:none !important;
+}
+
+.site02-region-special .company-card:hover{
+  background:#1d4238 !important;
+}
+
+.site02-region-special .ry-rank{
+  width:48px !important;
+  height:48px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  border-radius:0 !important;
+  background:#d3a065 !important;
+  color:#13261f !important;
+  -webkit-text-fill-color:#13261f !important;
+}
+
+.site02-region-special .company-name{
+  font-size:24px !important;
+  color:#fff !important;
+  -webkit-text-fill-color:#fff !important;
+}
+
+.site02-region-special .company-sub{
+  color:#afc0ba !important;
+  -webkit-text-fill-color:#afc0ba !important;
+}
+
+.site02-region-special .company-actions{
+  display:grid !important;
+  grid-template-columns:1fr 1fr !important;
+  gap:8px !important;
+}
+
+.site02-region-special .company-actions .call{
+  background:#d3a065 !important;
+  color:#14271f !important;
+}
+
+.site02-region-special .company-actions .sms{
+  background:transparent !important;
+  border:1px solid #668078 !important;
+  color:#fff !important;
+}
+
+/* SPECIAL ?? */
+.site02-region-special .editorial,
+.site02-region-special .section-soft,
+.site02-region-special .metro-local-800,
+.site02-region-special .ry-longtext,
+.site02-region-special .ry-longtext-box,
+.site02-region-special .article,
+.site02-region-special .check,
+.site02-region-special .faq-item{
+  background:#17372f !important;
+  border-color:#38594f !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  color:#dce7e2 !important;
+}
+
+.site02-region-special .editorial *,
+.site02-region-special .section-soft *,
+.site02-region-special .metro-local-800 *,
+.site02-region-special .ry-longtext *{
+  color:inherit !important;
+  -webkit-text-fill-color:inherit !important;
+}
+
+@media(max-width:800px){
+  .site02-region-special .hero-copy{
+    width:auto !important;
+    padding:65px 28px !important;
+  }
+
+  .site02-region-special .company-card{
+    grid-template-columns:55px 1fr !important;
+  }
+
+  .site02-region-special .company-sub,
+  .site02-region-special .company-actions{
+    grid-column:2 !important;
+  }
+}
+
+/* =====================================================
+   SPECIAL 지역페이지 밝은 하단 영역 가독성 최종 보정
+   ===================================================== */
+
+/* 밝은 배경 섹션 */
+.site02-region-special .section-soft,
+.site02-region-special .metro-local-800{
+  background:#f3f8f6 !important;
+  color:#173a33 !important;
+}
+
+/* 제목 */
+.site02-region-special .section-soft h1,
+.site02-region-special .section-soft h2,
+.site02-region-special .section-soft h3,
+.site02-region-special .metro-local-800 h1,
+.site02-region-special .metro-local-800 h2,
+.site02-region-special .metro-local-800 h3{
+  color:#173a33 !important;
+  -webkit-text-fill-color:#173a33 !important;
+  opacity:1 !important;
+}
+
+/* 설명글 */
+.site02-region-special .section-soft p,
+.site02-region-special .section-soft span,
+.site02-region-special .section-soft strong,
+.site02-region-special .metro-local-800 p,
+.site02-region-special .metro-local-800 span,
+.site02-region-special .metro-local-800 strong{
+  color:#536c65 !important;
+  -webkit-text-fill-color:#536c65 !important;
+  opacity:1 !important;
+}
+
+/* 지역 선택 카드 */
+.site02-region-special .section-soft a,
+.site02-region-special .section-soft .zone-grid a,
+.site02-region-special .section-soft .region-card{
+  color:#173a33 !important;
+  -webkit-text-fill-color:#173a33 !important;
+}
+
+.site02-region-special .section-soft a *,
+.site02-region-special .section-soft .zone-grid a *{
+  color:#173a33 !important;
+  -webkit-text-fill-color:#173a33 !important;
+  opacity:1 !important;
+}
+
+/* REGION GUIDE / LOCATION 같은 작은 라벨만 포인트색 */
+.site02-region-special .section-label,
+.site02-region-special .kicker{
+  color:#d58c22 !important;
+  -webkit-text-fill-color:#d58c22 !important;
+  opacity:1 !important;
+}
+
+
+/* =====================================================
+   SPECIAL REGION GUIDE / MAP 실제 영역 가독성 수정
+   ===================================================== */
+
+/* REGION GUIDE / LOCATION이 들어있는 기본 section */
+.site02-region-special .section{
+  background:#eef6f4 !important;
+  color:#173a33 !important;
+}
+
+/* 제목 */
+.site02-region-special .section h1,
+.site02-region-special .section h2,
+.site02-region-special .section h3,
+.site02-region-special .section-head h1,
+.site02-region-special .section-head h2,
+.site02-region-special .section-head h3{
+  color:#173a33 !important;
+  -webkit-text-fill-color:#173a33 !important;
+  opacity:1 !important;
+}
+
+/* 설명문 */
+.site02-region-special .section p,
+.site02-region-special .section-head p,
+.site02-region-special .subline{
+  color:#5b6d68 !important;
+  -webkit-text-fill-color:#5b6d68 !important;
+  opacity:1 !important;
+}
+
+/* REGION GUIDE / LOCATION 작은 라벨 */
+.site02-region-special .section-label,
+.site02-region-special .label,
+.site02-region-special .kicker{
+  color:#d58a1e !important;
+  -webkit-text-fill-color:#d58a1e !important;
+  opacity:1 !important;
+}
+
+/* 세부지역 카드 */
+.site02-region-special .zone-grid a,
+.site02-region-special .zone-grid > *,
+.site02-region-special .region-grid a{
+  background:#fffaf5 !important;
+  color:#173a33 !important;
+  border-color:#d8c8b9 !important;
+}
+
+.site02-region-special .zone-grid a *,
+.site02-region-special .zone-grid > * *,
+.site02-region-special .region-grid a *{
+  color:#173a33 !important;
+  -webkit-text-fill-color:#173a33 !important;
+  opacity:1 !important;
+}
+
+/* 지도 영역 */
+.site02-region-special .map-wrap{
+  color:#173a33 !important;
+}
+
+.site02-region-special .map-wrap *,
+.site02-region-special .map-wrap h2,
+.site02-region-special .map-wrap h3,
+.site02-region-special .map-wrap p{
+  color:#173a33 !important;
+  -webkit-text-fill-color:#173a33 !important;
+  opacity:1 !important;
+}
+
+
+/* ===== SPECIAL REGION LINKS + MAP FINAL FIX ===== */
+
+body.site02-region-special .region-links,
+body.site02-region-special .map-section{
+  background:#eef6f3 !important;
+  color:#173a33 !important;
+}
+
+/* 두 영역 안의 글자 전부 진하게 */
+body.site02-region-special .region-links *,
+body.site02-region-special .map-section *{
+  color:#173a33 !important;
+  -webkit-text-fill-color:#173a33 !important;
+  opacity:1 !important;
+  text-shadow:none !important;
+}
+
+/* REGION GUIDE / LOCATION */
+body.site02-region-special .region-links .eyebrow,
+body.site02-region-special .map-section .eyebrow{
+  color:#d18724 !important;
+  -webkit-text-fill-color:#d18724 !important;
+  font-weight:900 !important;
+}
+
+/* 제목 */
+body.site02-region-special .region-head h1,
+body.site02-region-special .region-head h2,
+body.site02-region-special .region-head h3,
+body.site02-region-special .map-head h1,
+body.site02-region-special .map-head h2,
+body.site02-region-special .map-head h3{
+  color:#173a33 !important;
+  -webkit-text-fill-color:#173a33 !important;
+  opacity:1 !important;
+}
+
+/* 지역 선택 링크/카드 */
+body.site02-region-special .region-links a{
+  color:#173a33 !important;
+  -webkit-text-fill-color:#173a33 !important;
+  background:#fffaf3 !important;
+  border-color:#d7c9b8 !important;
+  opacity:1 !important;
+}
+
+body.site02-region-special .region-links a *{
+  color:#173a33 !important;
+  -webkit-text-fill-color:#173a33 !important;
+  opacity:1 !important;
+}
+
+/* 지도 설명 */
+body.site02-region-special .map-section p,
+body.site02-region-special .map-section span,
+body.site02-region-special .map-section strong{
+  color:#526b64 !important;
+  -webkit-text-fill-color:#526b64 !important;
+  opacity:1 !important;
+}
+
+
+/* ===== 상단 SEOUL / GYEONGGI / INCHEON 카드 가독성 수정 ===== */
+
+body.site02-region-special .strip{
+  background:#102f28 !important;
+}
+
+body.site02-region-special .strip .strip-grid > div{
+  background:#fffdf8 !important;
+  color:#173a33 !important;
+  opacity:1 !important;
+}
+
+body.site02-region-special .strip .strip-grid > div *{
+  color:#173a33 !important;
+  -webkit-text-fill-color:#173a33 !important;
+  opacity:1 !important;
+  text-shadow:none !important;
+}
+
+body.site02-region-special .strip .strip-grid > div b{
+  color:#173a33 !important;
+  -webkit-text-fill-color:#173a33 !important;
+  font-weight:900 !important;
+}
+
+body.site02-region-special .strip .strip-grid > div span,
+body.site02-region-special .strip .strip-grid > div p,
+body.site02-region-special .strip .strip-grid > div small{
+  color:#61746e !important;
+  -webkit-text-fill-color:#61746e !important;
+  opacity:1 !important;
+}
+
